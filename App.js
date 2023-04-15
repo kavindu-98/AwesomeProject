@@ -11,22 +11,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerShown: false
-        }}
-        initialRouteName={'Dashboard'}
-      >
-        <Stack.Screen
-          name="Dashboard"
-          component={Tabs}
-        />
 
-        {/* <Stack.Screen
-          name="Place"
-          component={Place}
-        /> */}
-      </Stack.Navigator>
     </NavigationContainer>
   )
 }
